@@ -1,1 +1,1 @@
-https://rubertyao.github.io/mywebsite/
+https://rubertyao.github.io
