@@ -1,0 +1,66 @@
+---
+title: "Robert Yav"
+subtitle: "Summary of Robert Yav, MS Statistics Candidate at San Jose State"
+abstract: "Mathematics student currently pursuing a Master's in Statistics at San Jose State University, seeking internship opportunities in research and data science. Interesting in integrating data into machine learning models to drive decision making, eager to apply conceptual coursework and extracurricular experience on real-world problems independently and on dynamic, multidisciplinary teams."
+format: html 
+
+---
+
+# Welcome
+
+## Education
+### B.S. Applied Mathematics, Concentration: Statistics, Minor in Computer Science Graduated: May 2023
+
+### MS Statistics (In Progress) Expected Graduation: May 2028
+
+### Relevant Coursework
+Probability and Statistics I-II, Object Oriented Programming, Data Structures and Algorithms, Programming in R, Python and SQL, Fundamentals of Data Science, Mathematical Statistics, Numerical Analysis and Scientific Computing, Linear and Nonlinear Optimization, Combinatorics, Mathematical Modeling, Regression Theory, Stochastic Processes, Mathematical Data Visualization, Design and Analysis of Experiments
+
+## Skills
+### Technical
+R (ggpubr, tidyverse), JMP (SAS), SQL, Python (Numpy, Pandas, SKLearn, matplotlib), Java, Excel
+
+### Soft
+Report Generation, Communication, Team Leading
+
+## Project Summaries
+### Experimental Design of Human vs AI Art Perception: Replication Analysis (S 2026)
+
+Wrangled a 60 participant x 319 column dataset on Chinese survey about AI art perception, from wide to long format in R tidyverse
+
+Audited and reanalyzed study's Friedman Test and WIthin Factors Repeated Measures ANOVA analysis, revealing dataset midlabeling through a systematic comparison of descriptive statistic plots and tables in R using ggpubr package
+
+### Traffic Sign Classifcation (S 2026)
+Constructed a computer vision classification pipeline using resized and rescaled images on LISA Traffic Sign dataset, addressing class imbalance through image augmentation and SMOTE and comparing PCA< t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers using scikitlearn.
+
+### Predicting BMI in Chinese Adolescents Using Screentime (F 2025)
+
+Adapted Ordinary Least Squares Regression, LASSO regression, and transformation to predict adolescent BMI using screentime and other predictors from Chinese national demographic and health dataset in R with caret package
+
+Compared model prediction accuracy using k-fold cross validation using RMSE, $R^2$, and adjusted RMSE values.
+
+### Natural Disaster Tweet Classification with NLP, Machine Learning Club @SJSU (2023)
+
+Directed a Machine Learning Club team in accurately recognizing whether social media posts have identified real natural disasters by utilizing Python's NLP libraries including spaCy for lemmatization and tokenization.
+
+Modeled the disaster tweet dataset using Multinomial Naive Bayes, Logistic Regression, K-Nearest Neighbors, Decision Trees, Random Forests, Support Vector Machine Regression, and Gradient Boosting.
+
+## Relevant Job Experience Summary
+
+#### Math Lab Lead, Instructional Support Assistant, Evergreen Valley College, San Jose, CA (2024-Present)
+
+Facilitating a Math, Science, and Engineering Lab teaching students al subjects related to STEM fields at a community college level, increasing MSRC functional hours into the evening
+
+Closely working in a co-operational group of staff, professorsm and student tutors in maintaining community college educational standards, increasing student confidence in college facilities.
+
+#### Instructional Student Assistant, SJSU, San Jose, CA (2022-2023)
+Facilitated a workshop for core mathematical concepts in MATH 70X (Mathematics for Business) and MATH 30X (Calculus I) for head professors resulting in increased consistency between classes
+
+### Additional Job Experience
+
+#### Server, Ramen Yugen, Mountain View, CA (2023-2025)
+
+#### Proctor, Bellarmine College Preparatory, San Jose, CA (2022-2025)
+
+
+
