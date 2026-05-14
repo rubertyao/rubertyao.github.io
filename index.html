@@ -37,146 +37,526 @@ ul.task-list li input[type="checkbox"] {
 <script src="index_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="index_files/libs/bootstrap/bootstrap-efbb37e9afcc02144ebbc7afd12a776f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="fullcontent quarto-light">
+<body class="quarto-light">
 
-<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-full">
 
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Robert Yav</h1>
-<p class="subtitle lead">Summary of Robert Yav, MS Statistics Candidate at San Jose State University</p>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="block-title">Abstract</div>
-    Mathematics student currently pursuing a Master’s in Statistics at San Jose State University, seeking internship opportunities in research and data science. Interesting in integrating data into machine learning models to drive decision making, eager to apply conceptual coursework and extracurricular experience on real-world problems independently and on dynamic, multidisciplinary teams.
-  </div>
-</div>
 
 
 </header>
 
 
-<section id="welcome" class="level1">
-<h1>Welcome</h1>
-<section id="emails" class="level2">
-<h2 class="anchored" data-anchor-id="emails">Emails</h2>
-<p>yavrob@gmail.com | robert.yav@sjsu.edu | robert.yav@evc.edu</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<p><a href="https://www.linkedin.com/in/robert-yav/">LinkedIn</a> | <a href="https://www.evc.edu/people/robert-yav">EVC Profile</a> | <a href="https://github.com/rubertyao">Github</a></p>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<p>B.S. Applied Mathematics, Concentration: Statistics, Minor in Computer Science Graduated: May 2023</p>
-<p>MS Statistics (In Progress) Expected Graduation: May 2028</p>
-<section id="relevant-coursework" class="level3">
-<h3 class="anchored" data-anchor-id="relevant-coursework">Relevant Coursework</h3>
-<p>Probability and Statistics I-II, Object Oriented Programming, Data Structures and Algorithms, Programming in R, Python and SQL, Fundamentals of Data Science, Mathematical Statistics, Numerical Analysis and Scientific Computing, Linear and Nonlinear Optimization, Combinatorics, Mathematical Modeling, Regression Theory, Stochastic Processes, Mathematical Data Visualization, Design and Analysis of Experiments</p>
-</section>
-</section>
-<section id="skills" class="level2">
-<h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<section id="technical" class="level4">
-<h4 class="anchored" data-anchor-id="technical">Technical</h4>
-<p>R (ggpubr, tidyverse), JMP (SAS), SQL, Python (Numpy, Pandas, SKLearn, matplotlib), Java, Excel, LateX, Quarto Markdown</p>
-</section>
-<section id="soft" class="level4">
-<h4 class="anchored" data-anchor-id="soft">Soft</h4>
-<p>Report Generation, Communication, Team Leading</p>
-</section>
-</section>
-<section id="project-summaries" class="level2">
-<h2 class="anchored" data-anchor-id="project-summaries">Project Summaries</h2>
-<section id="experimental-design-of-human-vs-ai-art-perception-replication-analysis-spring-2026" class="level3">
-<h3 class="anchored" data-anchor-id="experimental-design-of-human-vs-ai-art-perception-replication-analysis-spring-2026">Experimental Design of Human vs AI Art Perception: Replication Analysis (Spring 2026)</h3>
-<p><a href="https://github.com/meganajoseph/AI_sentiments">Github Link</a></p>
-<p>Wrangled a 60 participant x 319 column dataset on Chinese survey about AI art perception, from wide to long format in R tidyverse</p>
-<p>Audited and reanalyzed study’s Friedman Test and Within Factors Repeated Measures ANOVA analysis, revealing dataset midlabeling through a systematic comparison of descriptive statistic plots and tables in R using ggpubr package</p>
-</section>
-<section id="traffic-sign-classifcation-spring-2026" class="level3">
-<h3 class="anchored" data-anchor-id="traffic-sign-classifcation-spring-2026">Traffic Sign Classifcation (Spring 2026)</h3>
-<p>Constructed a computer vision classification pipeline using resized and rescaled images on LISA Traffic Sign dataset, addressing class imbalance through image augmentation and SMOTE and comparing PCA&lt; t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers using scikitlearn.</p>
-</section>
-<section id="predicting-bmi-in-chinese-adolescents-using-screentime-fall-2025" class="level3">
-<h3 class="anchored" data-anchor-id="predicting-bmi-in-chinese-adolescents-using-screentime-fall-2025">Predicting BMI in Chinese Adolescents Using Screentime (Fall 2025)</h3>
-<p>Adapted Ordinary Least Squares Regression, LASSO regression, and transformation to predict adolescent BMI using screentime and other predictors from Chinese national demographic and health dataset in R with caret package</p>
-<p>Compared model prediction accuracy using k-fold cross validation using RMSE, <span class="math inline">\(R^2\)</span>, and adjusted RMSE values.</p>
-</section>
-<section id="natural-disaster-tweet-classification-with-nlp-machine-learning-club-sjsu-2023" class="level3">
-<h3 class="anchored" data-anchor-id="natural-disaster-tweet-classification-with-nlp-machine-learning-club-sjsu-2023">Natural Disaster Tweet Classification with NLP, Machine Learning Club <span class="citation" data-cites="SJSU">@SJSU</span> (2023)</h3>
-<p>Directed a Machine Learning Club team in accurately recognizing whether social media posts have identified real natural disasters by utilizing Python’s NLP libraries including spaCy for lemmatization and tokenization.</p>
-<p>Modeled the disaster tweet dataset using Multinomial Naive Bayes, Logistic Regression, K-Nearest Neighbors, Decision Trees, Random Forests, Support Vector Machine Regression, and Gradient Boosting.</p>
-</section>
-</section>
-<section id="relevant-job-experience-summary" class="level2">
-<h2 class="anchored" data-anchor-id="relevant-job-experience-summary">Relevant Job Experience Summary</h2>
-<section id="math-lab-lead-instructional-support-assistant-evergreen-valley-college-san-jose-ca-2024-present" class="level4">
-<h4 class="anchored" data-anchor-id="math-lab-lead-instructional-support-assistant-evergreen-valley-college-san-jose-ca-2024-present">Math Lab Lead, Instructional Support Assistant, Evergreen Valley College, San Jose, CA (2024-Present)</h4>
-<p>Facilitating a Math, Science, and Engineering Lab teaching students al subjects related to STEM fields at a community college level, increasing MSRC functional hours into the evening</p>
-<p>Closely working in a co-operational group of staff, professorsm and student tutors in maintaining community college educational standards, increasing student confidence in college facilities.</p>
-</section>
-<section id="instructional-student-assistant-sjsu-san-jose-ca-2022-2023" class="level4">
-<h4 class="anchored" data-anchor-id="instructional-student-assistant-sjsu-san-jose-ca-2022-2023">Instructional Student Assistant, SJSU, San Jose, CA (2022-2023)</h4>
-<p>Facilitated a workshop for core mathematical concepts in MATH 70X (Mathematics for Business) and MATH 30X (Calculus I) for head professors resulting in increased consistency between classes</p>
-</section>
-<section id="additional-job-experience" class="level3">
-<h3 class="anchored" data-anchor-id="additional-job-experience">Additional Job Experience</h3>
-<section id="server-ramen-yugen-mountain-view-ca-2023-2025" class="level4">
-<h4 class="anchored" data-anchor-id="server-ramen-yugen-mountain-view-ca-2023-2025">Server, Ramen Yugen, Mountain View, CA (2023-2025)</h4>
-</section>
-<section id="proctor-bellarmine-college-preparatory-san-jose-ca-2022-2025" class="level4">
-<h4 class="anchored" data-anchor-id="proctor-bellarmine-college-preparatory-san-jose-ca-2022-2025">Proctor, Bellarmine College Preparatory, San Jose, CA (2022-2025)</h4>
-</section>
-</section>
-</section>
-</section>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: #1a1a1a;
+    background: #f7f6f3;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 52px;
+    background: #fff;
+    border-bottom: 0.5px solid rgba(0,0,0,0.12);
+  }
+
+  .nav-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 17px;
+    color: #1a1a1a;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    color: #666;
+    text-decoration: none;
+  }
+
+  .nav-links a:hover { color: #1a1a1a; }
+
+  main { max-width: 780px; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  /* Hero */
+  .hero {
+    padding: 3.5rem 0 2.5rem;
+    border-bottom: 0.5px solid rgba(0,0,0,0.1);
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-label {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #1D9E75;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+  }
+
+  .hero-bio {
+    font-size: 15px;
+    color: #555;
+    max-width: 560px;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+
+  .hero-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #1a1a1a;
+    background: #fff;
+    border: 0.5px solid rgba(0,0,0,0.25);
+    border-radius: 100px;
+    padding: 6px 14px;
+    text-decoration: none;
+  }
+
+  .hero-link:hover { background: #f2f2f0; }
+
+  .hero-link .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1D9E75;
+    flex-shrink: 0;
+  }
+
+  .contact-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #555;
+    background: #fff;
+    border: 0.5px solid rgba(0,0,0,0.12);
+    border-radius: 100px;
+    padding: 6px 14px;
+  }
+
+  /* Sections */
+  section { margin-bottom: 2.5rem; }
+
+  .section-title {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid rgba(0,0,0,0.1);
+  }
+
+  /* Skills */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .skill-card {
+    background: #fff;
+    border: 0.5px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+  }
+
+  .skill-card-label {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #1D9E75;
+    margin-bottom: 0.4rem;
+  }
+
+  .skill-card p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+  }
+
+  /* Projects */
+  .project-card {
+    background: #fff;
+    border: 0.5px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .project-card:last-child { margin-bottom: 0; }
+
+  .project-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .project-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1a1a1a;
+  }
+
+  .project-term {
+    font-size: 12px;
+    color: #aaa;
+    white-space: nowrap;
+    padding-top: 3px;
+  }
+
+  .project-desc {
+    font-size: 13.5px;
+    color: #555;
+    line-height: 1.65;
+    margin-bottom: 0.75rem;
+  }
+
+  .gh-link {
+    font-size: 12px;
+    color: #1D9E75;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 0.75rem;
+  }
+
+  .gh-link:hover { text-decoration: underline; }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 100px;
+    background: #f2f2f0;
+    color: #666;
+    border: 0.5px solid rgba(0,0,0,0.1);
+  }
+
+  .tag.accent {
+    background: #E1F5EE;
+    color: #0F6E56;
+    border-color: #9FE1CB;
+  }
+
+  /* Experience */
+  .exp-item {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem 1rem;
+    padding: 1rem 0;
+    border-bottom: 0.5px solid rgba(0,0,0,0.1);
+  }
+
+  .exp-item:last-child { border-bottom: none; }
+
+  .exp-role {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+  }
+
+  .exp-org {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 0.4rem;
+  }
+
+  .exp-desc {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+    grid-column: 1 / -1;
+  }
+
+  .exp-date {
+    font-size: 12px;
+    color: #aaa;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* Education */
+  .edu-block {
+    background: #fff;
+    border: 0.5px solid rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .edu-degree {
+    font-size: 15px;
+    font-weight: 500;
+    color: #1a1a1a;
+    margin-bottom: 2px;
+  }
+
+  .edu-school {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 0.6rem;
+  }
+
+  .edu-courses {
+    font-size: 12px;
+    color: #aaa;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .skills-grid { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 32px; }
+    nav { padding: 0 1rem; }
+    .nav-links { gap: 1rem; }
+  }
+</style>
+
+<nav>
+  <span class="nav-name">Robert Yav</span>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <section class="hero" id="about">
+    <p class="hero-label">MS Statistics · San Jose State University</p>
+    <h1>Robert Yav</h1>
+    <p class="hero-bio">
+      Applied mathematician and statistician pursuing a master's degree, with a focus on machine learning, data science, and statistical modeling. Seeking internship opportunities in research and data science to apply coursework and project experience to real-world problems.
+    </p>
+    <div class="hero-links">
+      <a class="hero-link" href="https://www.linkedin.com/in/robert-yav/"><span class="dot"></span>LinkedIn</a>
+      <a class="hero-link" href="https://github.com/rubertyao"><span class="dot"></span>GitHub</a>
+      <a class="hero-link" href="https://www.evc.edu/people/robert-yav"><span class="dot"></span>EVC Profile</a>
+      <span class="contact-pill"><i class="ti ti-mail"></i> yavrob@gmail.com</span>
+      <span class="contact-pill"><i class="ti ti-mail"></i> robert.yav@sjsu.edu</span>
+    </div>
+  </section>
+
+  <section id="skills">
+    <p class="section-title">Skills</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <p class="skill-card-label">Statistical Methods</p>
+        <p>Regression (OLS, LASSO), ANOVA, Friedman Test, cross-validation, k-fold CV, stochastic processes, experimental design</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-card-label">Machine Learning</p>
+        <p>Random Forest, SVM, Naive Bayes, XGBoost, KNN, Logistic Regression, Gradient Boosting, NLP (spaCy)</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-card-label">Languages &amp; Tools</p>
+        <p>Python (NumPy, Pandas, Scikit-learn, matplotlib), R (tidyverse, ggpubr, caret), SQL, Java, LaTeX, Excel, Quarto</p>
+      </div>
+      <div class="skill-card">
+        <p class="skill-card-label">Dimensionality Reduction</p>
+        <p>PCA, t-SNE, UMAP · Computer vision pipelines · Class imbalance handling via SMOTE and image augmentation</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section-title">Projects</p>
+
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-title">Human vs AI Art Perception — Replication Analysis</span>
+        <span class="project-term">Spring 2026</span>
+      </div>
+      <a class="gh-link" href="https://github.com/meganajoseph/AI_sentiments"><i class="ti ti-brand-github"></i> View on GitHub</a>
+      <p class="project-desc">
+        Wrangled a 60-participant × 319-column survey dataset on AI art perception from wide to long format using R tidyverse. Audited and reanalyzed the study's Friedman Test and Within-Factors Repeated Measures ANOVA, uncovering dataset mislabeling through systematic comparison of descriptive statistics with ggpubr.
+      </p>
+      <div class="project-tags">
+        <span class="tag accent">R</span>
+        <span class="tag">tidyverse</span>
+        <span class="tag">ggpubr</span>
+        <span class="tag">Experimental Design</span>
+        <span class="tag">ANOVA</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-title">Traffic Sign Classification</span>
+        <span class="project-term">Spring 2026</span>
+      </div>
+      <p class="project-desc">
+        Built a computer vision classification pipeline on the LISA Traffic Sign dataset. Addressed class imbalance via image augmentation and SMOTE, then compared PCA, t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers.
+      </p>
+      <div class="project-tags">
+        <span class="tag accent">Python</span>
+        <span class="tag">scikit-learn</span>
+        <span class="tag">SMOTE</span>
+        <span class="tag">PCA / t-SNE / UMAP</span>
+        <span class="tag">Computer Vision</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-title">Predicting BMI from Screentime in Chinese Adolescents</span>
+        <span class="project-term">Fall 2025</span>
+      </div>
+      <p class="project-desc">
+        Applied OLS regression, LASSO, and variable transformations to predict adolescent BMI from screentime and demographic predictors using a Chinese national health dataset. Compared model accuracy via k-fold cross-validation with RMSE, R², and adjusted RMSE.
+      </p>
+      <div class="project-tags">
+        <span class="tag accent">R</span>
+        <span class="tag">caret</span>
+        <span class="tag">LASSO</span>
+        <span class="tag">OLS Regression</span>
+        <span class="tag">Cross-validation</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-title">Natural Disaster Tweet Classification</span>
+        <span class="project-term">2023</span>
+      </div>
+      <p class="project-desc">
+        Led a Machine Learning Club team to classify whether social media posts describe real natural disasters. Applied NLP preprocessing (spaCy lemmatization and tokenization) and compared Multinomial Naive Bayes, Logistic Regression, KNN, Decision Trees, Random Forests, SVM, and Gradient Boosting.
+      </p>
+      <div class="project-tags">
+        <span class="tag accent">Python</span>
+        <span class="tag">spaCy</span>
+        <span class="tag">NLP</span>
+        <span class="tag">Classification</span>
+        <span class="tag">ML Club @SJSU</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section-title">Experience</p>
+
+    <div class="exp-item">
+      <div>
+        <p class="exp-role">Math Lab Lead · Instructional Support Assistant</p>
+        <p class="exp-org">Evergreen Valley College — San Jose, CA</p>
+      </div>
+      <p class="exp-date">2024 – Present</p>
+      <p class="exp-desc">Leading the Math, Science &amp; Engineering Resource Center, extending lab hours into the evening. Collaborating with staff, professors, and student tutors to maintain educational standards and build student confidence.</p>
+    </div>
+
+    <div class="exp-item">
+      <div>
+        <p class="exp-role">Instructional Student Assistant</p>
+        <p class="exp-org">San Jose State University — San Jose, CA</p>
+      </div>
+      <p class="exp-date">2022 – 2023</p>
+      <p class="exp-desc">Facilitated workshops for MATH 70X (Mathematics for Business) and MATH 30X (Calculus I), improving consistency across course sections under head professors.</p>
+    </div>
+
+    <div class="exp-item">
+      <div>
+        <p class="exp-role">Server</p>
+        <p class="exp-org">Ramen Yugen — Mountain View, CA</p>
+      </div>
+      <p class="exp-date">2023 – 2025</p>
+    </div>
+
+    <div class="exp-item">
+      <div>
+        <p class="exp-role">Proctor</p>
+        <p class="exp-org">Bellarmine College Preparatory — San Jose, CA</p>
+      </div>
+      <p class="exp-date">2022 – 2025</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <p class="section-title">Education</p>
+
+    <div class="edu-block">
+      <p class="edu-degree">MS Statistics <span style="color: #aaa; font-weight: 400; font-size: 13px;">(In Progress — Expected May 2028)</span></p>
+      <p class="edu-school">San Jose State University</p>
+    </div>
+
+    <div class="edu-block">
+      <p class="edu-degree">BS Applied Mathematics — Concentration: Statistics, Minor in Computer Science</p>
+      <p class="edu-school">San Jose State University · Graduated May 2023</p>
+      <p class="edu-courses">Probability &amp; Statistics I–II · Mathematical Statistics · Regression Theory · Stochastic Processes · Design and Analysis of Experiments · Numerical Analysis &amp; Scientific Computing · Linear and Nonlinear Optimization · Mathematical Modeling · Mathematical Data Visualization · Data Structures &amp; Algorithms · Fundamentals of Data Science · Programming in R, Python &amp; SQL · Object-Oriented Programming · Combinatorics</p>
+    </div>
+  </section>
+
+</main>
 
 </main>
 <!-- /main column -->
