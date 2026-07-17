@@ -15,19 +15,33 @@ format:
       - text: EVC Profile
         href: https://www.evc.edu/people/robert-yav
 ---
-<
-Contact me: 
 
-<div class="emails">yavrob@gmail.com</div>
-yavrob@gmail.com 
+<div class="picture">
+<div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rKacd0OZeBQ99rb_mNK6DcgTMvq1m6oBoV5w2tLmmA&s=10" alt= "linkedinprofile" width="300" height="300">
+</div>
 
-robert.yav@sjsu.edu 
+<div>
+Contact me!
 
-robert.yav@evc.edu
+Personal Inquiries:
+<a href="mailto: yavrob@gmail.com"> yavrob@gmail.com </a>
 
+Work:
+<a href="mailto: robert.yav@evc.edu"> robert.yav@evc.edu </a>
+
+Academic:
+<a href="mailto: robert.yav@sjsu.edu"> robert.yav@sjsu.edu </a>
+</div>
+
+</div>
+
+<p class="embolden">I am currently seeking internship positions in Data Science, Data Engineering, Data Analytics or other Statistics-adjacent roles!</p>
 ## Introduction
 
-Applied mathematician and statistician pursuing a master's degree, with a focus on machine learning, data science, and statistical modeling. Seeking internship opportunities in research and data science to apply coursework and project experience to real-world problems.
+Applied mathematician and statistician pursuing a master's degree, with a focus on machine learning, data science, and statistical modeling. Seeking internship opportunities in research and data science to apply coursework and project experience to real-world problems. I graduated from San Jose State University with a B.S. in Applied Mathematics with a concentration in Statistics and a minor in Computer Science.
+
+
 
 ## Present
 
@@ -35,7 +49,7 @@ Applied mathematician and statistician pursuing a master's degree, with a focus 
 
 #### Math Lab Lead, Instructional Assistant
 
-Tuesday, Wednesday, and Thursday, find me at MS-112B in my usual corner 1:00-8:00PM. (10:30-5:30PM in the summer) Tutoring in Calculus I-III (MATH 71-73), Differential Equations (MATH 78), and Statistics (STAT C1000).
+Currently, I work with the future generation of engineers in the Math and Science Resource Center at Evergreen Valley College. Tuesday, Wednesday, and Thursday, find me at MS-112B in my usual corner 1:00-8:00PM. (10:30-5:30PM in the summer) Tutoring in Calculus I-III (MATH 71-73), Differential Equations (MATH 78), and Statistics (STAT C1000).
 
 My schedule is subject to changes every semester as I move it around for schooling.
 
@@ -44,3 +58,43 @@ My schedule is subject to changes every semester as I move it around for schooli
 #### MS Statistics
 
 Currently attending San Jose State University, in Fall 2026, my course load includes Classification (MATH 251 MW 1:30-2:45PM) and Multivariate Analysis (MATH 257 MW 12:00-1:15PM).
+
+## Skills
+<div class="skillz">
+<div>
+<p class="title"> Statistical Methods </p>
+<p> Regression (OLS, LASSO), ANOVA, Friedman, cross-validation
+</p>
+</div>
+<div>
+<p class="title"> Machine Learning </p>
+<p> Random Forest, Support Vector Machine, XGBoost, Logistic Regression, NLP (spaCy)
+</p>
+</div>
+<div>
+<p class="title"> Languages & Tools </p>
+<p> Python (NumPy, Pandas, Scikit-learn, matplotlib), R (tidyverse, ggpubr, caret), SQL, Java, LaTeX, Excel, Quarto </p>
+</div>
+<div>
+<p class="title"> Dimensionality Reduction </p>
+<p> PCA, t-SNE, UMAP - Computer vision Class imbalance handling via SMOTE and image augmentation </p>
+</div>
+</div>
+
+## Projects
+### Human vs AI Art Perception: Replication Analysis
+
+## Experience
+### Math Lab Lead - Instructional Support Assistant
+
+
+## Education
+
+### MS Statistics
+<div> San Jose State University </div>
+Courses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory
+In Progress: Multivariate Analysis Classification
+
+### BS Applied Mathematics: Statistics, Minor in Computer Science
+<div> San Jose State University </div>
+Courses Taken: Probability & Statistics I-II Mathematical Statistics Numerical Analysis & Scientific Computing Linear and Nonlinear Optimization Mathematical Modeling Data Structures & Algorithms Fundamentals of Data Science Programming in R Python & SQL Object-Oriented Programming Combinatorics
