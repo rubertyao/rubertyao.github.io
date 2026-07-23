@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Robert Yav – who is Robert Yav</title>
+<title>Robert Yav – Robert Yav</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e1415c6bf7ff4928574c8cfe6e3b14aa.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d9ba6d75c13dce1ee58bfcb1b6d3baac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,11 +72,40 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">who is Robert Yav</span>
+    <span class="navbar-title">Robert Yav</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -101,6 +130,14 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./manual/mastersResumeRobertYav.pdf"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./manual/cvRobertYav.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -111,8 +148,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -125,30 +163,30 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
   <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a>
   <ul class="collapse">
-  <li><a href="#human-vs-ai-art-perception-replication-analysis" id="toc-human-vs-ai-art-perception-replication-analysis" class="nav-link" data-scroll-target="#human-vs-ai-art-perception-replication-analysis">Human vs AI Art Perception: Replication Analysis</a></li>
+  <li><a href="#human-vs-ai-art-perception-replication-analysis-spring-2026" id="toc-human-vs-ai-art-perception-replication-analysis-spring-2026" class="nav-link" data-scroll-target="#human-vs-ai-art-perception-replication-analysis-spring-2026">Human vs AI Art Perception: Replication Analysis <span class="dates">Spring 2026</span></a></li>
+  <li><a href="#traffic-sign-classification-spring-2026" id="toc-traffic-sign-classification-spring-2026" class="nav-link" data-scroll-target="#traffic-sign-classification-spring-2026">Traffic Sign Classification <span class="dates">Spring 2026</span></a></li>
+  <li><a href="#predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025" id="toc-predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025" class="nav-link" data-scroll-target="#predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025">Predicting BMI from Screentime in Chinese Adolescents <span class="dates">Fall 2025</span></a></li>
+  <li><a href="#natural-disaster-tweet-classification-2023" id="toc-natural-disaster-tweet-classification-2023" class="nav-link" data-scroll-target="#natural-disaster-tweet-classification-2023">Natural Disaster Tweet Classification <span class="dates">2023</span></a></li>
   </ul></li>
   <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a>
   <ul class="collapse">
-  <li><a href="#math-lab-lead---instructional-support-assistant" id="toc-math-lab-lead---instructional-support-assistant" class="nav-link" data-scroll-target="#math-lab-lead---instructional-support-assistant">Math Lab Lead - Instructional Support Assistant</a></li>
+  <li><a href="#math-lab-lead---instructional-support-assistant-2024-present" id="toc-math-lab-lead---instructional-support-assistant-2024-present" class="nav-link" data-scroll-target="#math-lab-lead---instructional-support-assistant-2024-present">Math Lab Lead - Instructional Support Assistant <span class="dates">2024-Present</span></a></li>
+  <li><a href="#instructional-student-assistant-2022-2023" id="toc-instructional-student-assistant-2022-2023" class="nav-link" data-scroll-target="#instructional-student-assistant-2022-2023">Instructional Student Assistant <span class="dates">2022-2023</span></a></li>
   </ul></li>
   <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a>
   <ul class="collapse">
-  <li><a href="#ms-statistics-1" id="toc-ms-statistics-1" class="nav-link" data-scroll-target="#ms-statistics-1">MS Statistics</a></li>
-  <li><a href="#bs-applied-mathematics-statistics-minor-in-computer-science" id="toc-bs-applied-mathematics-statistics-minor-in-computer-science" class="nav-link" data-scroll-target="#bs-applied-mathematics-statistics-minor-in-computer-science">BS Applied Mathematics: Statistics, Minor in Computer Science</a></li>
+  <li><a href="#ms-statistics-expected-graduatation-may-2028" id="toc-ms-statistics-expected-graduatation-may-2028" class="nav-link" data-scroll-target="#ms-statistics-expected-graduatation-may-2028">MS Statistics <span class="dates">Expected Graduatation: May 2028</span></a></li>
+  <li><a href="#bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023" id="toc-bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023" class="nav-link" data-scroll-target="#bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023">BS Applied Mathematics: Statistics, Minor in Computer Science <span class="dates">Graduated: May 2023</span></a></li>
   </ul></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://www.linkedin.com/in/robert-yav/"><i class="bi bi-link-45deg"></i>LinkedIn</a></li><li><a href="https://github.com/rubertyao"><i class="bi bi-link-45deg"></i>Github</a></li><li><a href="https://www.evc.edu/people/robert-yav"><i class="bi bi-link-45deg"></i>EVC Profile</a></li></ul></div></nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Robert Yav</h1>
+<h1 class="title"><span class="name">Robert Yav</span></h1>
 </div>
 
 
@@ -167,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="picture">
 <div>
-<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rKacd0OZeBQ99rb_mNK6DcgTMvq1m6oBoV5w2tLmmA&amp;s=10" alt="linkedinprofile" width="300" height="300"></p>
+<p><img src="manual/SICZ0113.jpg" width="50%" height="50%"></p>
 </div>
 <div>
 <p>Contact me!</p>
@@ -176,6 +214,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Academic: <a href="mailto: robert.yav@sjsu.edu"> robert.yav@sjsu.edu </a></p>
 </div>
 </div>
+TODO: Add font sizes to every paragraph, add pictures and more information for each project, and fix coloring and formatting for each section header
 <p class="embolden">
 I am currently seeking internship positions in Data Science, Data Engineering, Data Analytics or other Statistics-adjacent roles!
 </p>
@@ -240,27 +279,45 @@ PCA, t-SNE, UMAP - Computer vision Class imbalance handling via SMOTE and image 
 </section>
 <section id="projects" class="level2">
 <h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<section id="human-vs-ai-art-perception-replication-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="human-vs-ai-art-perception-replication-analysis">Human vs AI Art Perception: Replication Analysis</h3>
+<section id="human-vs-ai-art-perception-replication-analysis-spring-2026" class="level3">
+<h3 class="anchored" data-anchor-id="human-vs-ai-art-perception-replication-analysis-spring-2026">Human vs AI Art Perception: Replication Analysis <span class="dates">Spring 2026</span></h3>
+<p>Wrangled a 60-participant x 319-column survey dataset on AI art perception from wide to long format using R tidyverse. Audited and reanalyzed the study’s Friedman Test and Within-Factors Repeated Measures ANOVA, uncovering dataset mislabeling through systematic comparison of descriptive statistics with ggpubr.</p>
+</section>
+<section id="traffic-sign-classification-spring-2026" class="level3">
+<h3 class="anchored" data-anchor-id="traffic-sign-classification-spring-2026">Traffic Sign Classification <span class="dates">Spring 2026</span></h3>
+<p>Built a computer vision classification pipeline on the LISA Traffic Sign dataset. Addressed class imbalance via image augmentation and SMOTE, then compared PCA, t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers.</p>
+</section>
+<section id="predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025" class="level3">
+<h3 class="anchored" data-anchor-id="predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025">Predicting BMI from Screentime in Chinese Adolescents <span class="dates">Fall 2025</span></h3>
+<p>Applied OLS regression, LASSO, and variable transformations to predict adolescent BMI from screentime and demographic predictors using the Chinese National Health Survey dataset. Compared model accuracy via k-fold cross-validation with RMSE, <span class="math inline">\(R^2\)</span>, and adjusted RMSE.</p>
+</section>
+<section id="natural-disaster-tweet-classification-2023" class="level3">
+<h3 class="anchored" data-anchor-id="natural-disaster-tweet-classification-2023">Natural Disaster Tweet Classification <span class="dates">2023</span></h3>
+<p>Led a Machine Learning Club team to classify whether social media posts describe real natural disasters. Applied NLP preprocessing (spaCy lemmatization and tokenization) and compared Multinomial Naive Bayes, Logistic Regression, KNN, Decision Trees, Random Forests, SVM, and Gradient Boosting.</p>
 </section>
 </section>
 <section id="experience" class="level2">
 <h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<section id="math-lab-lead---instructional-support-assistant" class="level3">
-<h3 class="anchored" data-anchor-id="math-lab-lead---instructional-support-assistant">Math Lab Lead - Instructional Support Assistant</h3>
+<section id="math-lab-lead---instructional-support-assistant-2024-present" class="level3">
+<h3 class="anchored" data-anchor-id="math-lab-lead---instructional-support-assistant-2024-present">Math Lab Lead - Instructional Support Assistant <span class="dates">2024-Present</span></h3>
+<p>Leading the Math, Science &amp; Engineering Resource Center, independently extending lab hours into the evening. Collaborating with staff, professors, and student tutors to maintain education standards and proctoring exams.</p>
+</section>
+<section id="instructional-student-assistant-2022-2023" class="level3">
+<h3 class="anchored" data-anchor-id="instructional-student-assistant-2022-2023">Instructional Student Assistant <span class="dates">2022-2023</span></h3>
+<p>Independently facilitated workshops for MATH 70X (Mathematics for Business) and MATH 30X (Calculus I), improving consistency across course sections under head professors.</p>
 </section>
 </section>
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<section id="ms-statistics-1" class="level3">
-<h3 class="anchored" data-anchor-id="ms-statistics-1">MS Statistics</h3>
+<section id="ms-statistics-expected-graduatation-may-2028" class="level3">
+<h3 class="anchored" data-anchor-id="ms-statistics-expected-graduatation-may-2028">MS Statistics <span class="dates">Expected Graduatation: May 2028</span></h3>
 <div>
 San Jose State University
 </div>
 <p>Courses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory In Progress: Multivariate Analysis Classification</p>
 </section>
-<section id="bs-applied-mathematics-statistics-minor-in-computer-science" class="level3">
-<h3 class="anchored" data-anchor-id="bs-applied-mathematics-statistics-minor-in-computer-science">BS Applied Mathematics: Statistics, Minor in Computer Science</h3>
+<section id="bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023" class="level3">
+<h3 class="anchored" data-anchor-id="bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023">BS Applied Mathematics: Statistics, Minor in Computer Science <span class="dates">Graduated: May 2023</span></h3>
 <div>
 San Jose State University
 </div>

@@ -46,21 +46,21 @@
     "href": "index.html#projects",
     "title": "Robert Yav",
     "section": "Projects",
-    "text": "Projects\n\nHuman vs AI Art Perception: Replication Analysis"
+    "text": "Projects\n\nHuman vs AI Art Perception: Replication Analysis Spring 2026\nWrangled a 60-participant x 319-column survey dataset on AI art perception from wide to long format using R tidyverse. Audited and reanalyzed the study’s Friedman Test and Within-Factors Repeated Measures ANOVA, uncovering dataset mislabeling through systematic comparison of descriptive statistics with ggpubr.\n\n\nTraffic Sign Classification Spring 2026\nBuilt a computer vision classification pipeline on the LISA Traffic Sign dataset. Addressed class imbalance via image augmentation and SMOTE, then compared PCA, t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers.\n\n\nPredicting BMI from Screentime in Chinese Adolescents Fall 2025\nApplied OLS regression, LASSO, and variable transformations to predict adolescent BMI from screentime and demographic predictors using the Chinese National Health Survey dataset. Compared model accuracy via k-fold cross-validation with RMSE, \\(R^2\\), and adjusted RMSE.\n\n\nNatural Disaster Tweet Classification 2023\nLed a Machine Learning Club team to classify whether social media posts describe real natural disasters. Applied NLP preprocessing (spaCy lemmatization and tokenization) and compared Multinomial Naive Bayes, Logistic Regression, KNN, Decision Trees, Random Forests, SVM, and Gradient Boosting."
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Robert Yav",
     "section": "Experience",
-    "text": "Experience\n\nMath Lab Lead - Instructional Support Assistant"
+    "text": "Experience\n\nMath Lab Lead - Instructional Support Assistant 2024-Present\nLeading the Math, Science & Engineering Resource Center, independently extending lab hours into the evening. Collaborating with staff, professors, and student tutors to maintain education standards and proctoring exams.\n\n\nInstructional Student Assistant 2022-2023\nIndependently facilitated workshops for MATH 70X (Mathematics for Business) and MATH 30X (Calculus I), improving consistency across course sections under head professors."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Robert Yav",
     "section": "Education",
-    "text": "Education\n\nMS Statistics\n\nSan Jose State University\n\nCourses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory In Progress: Multivariate Analysis Classification\n\n\nBS Applied Mathematics: Statistics, Minor in Computer Science\n\nSan Jose State University\n\nCourses Taken: Probability & Statistics I-II Mathematical Statistics Numerical Analysis & Scientific Computing Linear and Nonlinear Optimization Mathematical Modeling Data Structures & Algorithms Fundamentals of Data Science Programming in R Python & SQL Object-Oriented Programming Combinatorics"
+    "text": "Education\n\nMS Statistics Expected Graduatation: May 2028\n\nSan Jose State University\n\nCourses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory In Progress: Multivariate Analysis Classification\n\n\nBS Applied Mathematics: Statistics, Minor in Computer Science Graduated: May 2023\n\nSan Jose State University\n\nCourses Taken: Probability & Statistics I-II Mathematical Statistics Numerical Analysis & Scientific Computing Linear and Nonlinear Optimization Mathematical Modeling Data Structures & Algorithms Fundamentals of Data Science Programming in R Python & SQL Object-Oriented Programming Combinatorics"
   },
   {
     "objectID": "index.html#projects-1",

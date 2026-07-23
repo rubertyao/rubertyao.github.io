@@ -1,9 +1,10 @@
 ---
-title: "Robert Yav"
+title: "<span class='name'>Robert Yav</span>"
 format:
   html:
     toc: True
-    toc-location: left
+    color: "#fff8e7"
+    toc-location: right
     anchor-sections: True
     smooth-scroll: True
     font-size: 1.5em
@@ -15,10 +16,9 @@ format:
       - text: EVC Profile
         href: https://www.evc.edu/people/robert-yav
 ---
-
 <div class="picture">
 <div>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6rKacd0OZeBQ99rb_mNK6DcgTMvq1m6oBoV5w2tLmmA&s=10" alt= "linkedinprofile" width="300" height="300">
+<img src="manual/SICZ0113.jpg" width=50% height=50%>
 </div>
 
 <div>
@@ -35,7 +35,7 @@ Academic:
 </div>
 
 </div>
-
+TODO: Add font sizes to every paragraph, add pictures and more information for each project, and fix coloring and formatting for each section header
 <p class="embolden">I am currently seeking internship positions in Data Science, Data Engineering, Data Analytics or other Statistics-adjacent roles!</p>
 ## Introduction
 
@@ -82,19 +82,38 @@ Currently attending San Jose State University, in Fall 2026, my course load incl
 </div>
 
 ## Projects
-### Human vs AI Art Perception: Replication Analysis
+### Human vs AI Art Perception: Replication Analysis [Spring 2026]{class="dates"}
+
+Wrangled a 60-participant x 319-column survey dataset on AI art perception from wide to long format using R tidyverse. Audited and reanalyzed the study's Friedman Test and Within-Factors Repeated Measures ANOVA, uncovering dataset mislabeling through systematic comparison of descriptive statistics with ggpubr.
+
+### Traffic Sign Classification [Spring 2026]{class="dates"}
+
+Built a computer vision classification pipeline on the LISA Traffic Sign dataset. Addressed class imbalance via image augmentation and SMOTE, then compared PCA, t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers.
+
+### Predicting BMI from Screentime in Chinese Adolescents [Fall 2025]{class="dates"}
+
+Applied OLS regression, LASSO, and variable transformations to predict adolescent BMI from screentime and demographic predictors using the Chinese National Health Survey dataset. Compared model accuracy via k-fold cross-validation with RMSE, $R^2$, and adjusted RMSE.
+
+### Natural Disaster Tweet Classification [2023]{class="dates"}
+
+Led a Machine Learning Club team to classify whether social media posts describe real natural disasters. Applied NLP preprocessing (spaCy lemmatization and tokenization) and compared Multinomial Naive Bayes, Logistic Regression, KNN, Decision Trees, Random Forests, SVM, and Gradient Boosting.
 
 ## Experience
-### Math Lab Lead - Instructional Support Assistant
+### Math Lab Lead - Instructional Support Assistant [2024-Present]{class="dates"}
 
+Leading the Math, Science & Engineering Resource Center, independently extending lab hours into the evening. Collaborating with staff, professors, and student tutors to maintain education standards and proctoring exams.
+
+### Instructional Student Assistant [2022-2023]{class="dates"}
+
+Independently facilitated workshops for MATH 70X (Mathematics for Business) and MATH 30X (Calculus I), improving consistency across course sections under head professors.
 
 ## Education
 
-### MS Statistics
+### MS Statistics [Expected Graduatation: May 2028]{class="dates"}
 <div> San Jose State University </div>
 Courses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory
 In Progress: Multivariate Analysis Classification
 
-### BS Applied Mathematics: Statistics, Minor in Computer Science
+### BS Applied Mathematics: Statistics, Minor in Computer Science [Graduated: May 2023]{class="dates"}
 <div> San Jose State University </div>
 Courses Taken: Probability & Statistics I-II Mathematical Statistics Numerical Analysis & Scientific Computing Linear and Nonlinear Optimization Mathematical Modeling Data Structures & Algorithms Fundamentals of Data Science Programming in R Python & SQL Object-Oriented Programming Combinatorics
