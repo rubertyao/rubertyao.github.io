@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Robert Yav"
+  navbar:
+    background: "#234F1E"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: "manual/mastersResumeRobertYav.pdf"
+        text: Resume
+      - href: "manual/cvRobertYav.pdf"
+        text: CV
+  page-footer:
+    center:
+    - text: "Some profound text here"
+  
+
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+
+editor: visual
+

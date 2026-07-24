@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Robert Yav",
+    "section": "",
+    "text": "Contact me!\nPersonal Inquiries:  yavrob@gmail.com \nWork:  robert.yav@evc.edu \nAcademic:  robert.yav@sjsu.edu\nI am currently seeking internship positions in Data Science, Data Engineering, Data Analytics or other Statistics-adjacent roles!"
+  },
+  {
+    "objectID": "index.html#for-employers",
+    "href": "index.html#for-employers",
+    "title": "Robert Yav",
+    "section": "For Employers",
+    "text": "For Employers\nResume CV Contact me: yavrob@gmail.com robert.yav@sjsu.edu robert.yav@evc.edu"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Robert Yav",
+    "section": "Introduction",
+    "text": "Introduction\nApplied mathematician and statistician pursuing a master’s degree, with a focus on machine learning, data science, and statistical modeling. Seeking internship opportunities in research and data science to apply coursework and project experience to real-world problems. I graduated from San Jose State University with a B.S. in Applied Mathematics with a concentration in Statistics and a minor in Computer Science."
+  },
+  {
+    "objectID": "index.html#present",
+    "href": "index.html#present",
+    "title": "Robert Yav",
+    "section": "Present",
+    "text": "Present\n\n Evergreen Valley College\n\nMath Lab Lead, Instructional Assistant\nCurrently, I work with the future generation of engineers in the Math and Science Resource Center at Evergreen Valley College. Tuesday, Wednesday, and Thursday, find me at MS-112B in my usual corner 1:00-8:00PM. (10:30-5:30PM in the summer) Tutoring in Calculus I-III (MATH 71-73), Differential Equations (MATH 78), and Statistics (STAT C1000).\nMy schedule is subject to changes every semester as I move it around for schooling.\n\n\n\n San Jose State University\n\nMS Statistics\nCurrently attending San Jose State University, in Fall 2026, my course load includes Classification (MATH 251 MW 1:30-2:45PM) and Multivariate Analysis (MATH 257 MW 12:00-1:15PM)."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Robert Yav",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nStatistical Methods\n\n\nRegression (OLS, LASSO), ANOVA, Friedman, cross-validation\n\n\n\n\nMachine Learning\n\n\nRandom Forest, Support Vector Machine, XGBoost, Logistic Regression, NLP (spaCy)\n\n\n\n\nLanguages & Tools\n\n\nPython (NumPy, Pandas, Scikit-learn, matplotlib), R (tidyverse, ggpubr, caret), SQL, Java, LaTeX, Excel, Quarto\n\n\n\n\nDimensionality Reduction\n\n\nPCA, t-SNE, UMAP - Computer vision Class imbalance handling via SMOTE and image augmentation"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Robert Yav",
+    "section": "Projects",
+    "text": "Projects\n\nHuman vs AI Art Perception: Replication Analysis Spring 2026\nWrangled a 60-participant x 319-column survey dataset on AI art perception from wide to long format using R tidyverse. Audited and reanalyzed the study’s Friedman Test and Within-Factors Repeated Measures ANOVA, uncovering dataset mislabeling through systematic comparison of descriptive statistics with ggpubr.\n\n\nTraffic Sign Classification Spring 2026\nBuilt a computer vision classification pipeline on the LISA Traffic Sign dataset. Addressed class imbalance via image augmentation and SMOTE, then compared PCA, t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers.\n\n\nPredicting BMI from Screentime in Chinese Adolescents Fall 2025\nApplied OLS regression, LASSO, and variable transformations to predict adolescent BMI from screentime and demographic predictors using the Chinese National Health Survey dataset. Compared model accuracy via k-fold cross-validation with RMSE, \\(R^2\\), and adjusted RMSE.\n\n\nNatural Disaster Tweet Classification 2023\nLed a Machine Learning Club team to classify whether social media posts describe real natural disasters. Applied NLP preprocessing (spaCy lemmatization and tokenization) and compared Multinomial Naive Bayes, Logistic Regression, KNN, Decision Trees, Random Forests, SVM, and Gradient Boosting."
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Robert Yav",
+    "section": "Experience",
+    "text": "Experience\n\nMath Lab Lead - Instructional Support Assistant 2024-Present\nLeading the Math, Science & Engineering Resource Center, independently extending lab hours into the evening. Collaborating with staff, professors, and student tutors to maintain education standards and proctoring exams.\n\n\nInstructional Student Assistant 2022-2023\nIndependently facilitated workshops for MATH 70X (Mathematics for Business) and MATH 30X (Calculus I), improving consistency across course sections under head professors."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Robert Yav",
+    "section": "Education",
+    "text": "Education\n\nMS Statistics Expected Graduatation: May 2028\n\nSan Jose State University\n\nCourses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory In Progress: Multivariate Analysis Classification\n\n\nBS Applied Mathematics: Statistics, Minor in Computer Science Graduated: May 2023\n\nSan Jose State University\n\nCourses Taken: Probability & Statistics I-II Mathematical Statistics Numerical Analysis & Scientific Computing Linear and Nonlinear Optimization Mathematical Modeling Data Structures & Algorithms Fundamentals of Data Science Programming in R Python & SQL Object-Oriented Programming Combinatorics"
+  },
+  {
+    "objectID": "index.html#projects-1",
+    "href": "index.html#projects-1",
+    "title": "Robert Yav",
+    "section": "Projects",
+    "text": "Projects\nHTML\n\n\nHuman vs AI Art Perception: Replication Analysis\n\n\nOR\n\nHuman vs AI Art Perception: Replication Analysis"
+  }
+]

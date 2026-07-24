@@ -1,0 +1,41 @@
+/* css styles */
+body {
+    background-color: #fff8e7;
+}
+.name {
+  font-size: 100px;
+  font-weight: bold;
+  font: "Times New Roman";
+  display: center;
+}
+.embolden {
+  font-weight: bold;
+  
+}
+.paragraphs {
+  font-size: 30px;
+  font: "Times New Roman";
+}
+.dates {
+  color: #232;
+  font-weight: lighter;
+  font-size: 16px;
+  display: block;
+  text-align: right;
+}
+.skillz {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+.picture{  
+  text-align: center;
+  display: block;
+  align-items: left;
+  gap: 2rem;
+}
+.title {
+  font-weight: bold;
+  font-size: 1em;
+}
