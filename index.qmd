@@ -16,7 +16,7 @@ format:
       - text: EVC Profile
         href: https://www.evc.edu/people/robert-yav
 ---
-<div class="picture">
+<div class="intro">
 <div>
 <img src="manual/SICZ0113.jpg" width=50% height=50%>
 </div>
