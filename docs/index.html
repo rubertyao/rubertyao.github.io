@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Robert Yav</title>
+<title>Robert Yav – Robert Yav</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -105,7 +70,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -128,12 +123,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="./manual/mastersResumeRobertYav.pdf"> 
+<span class="menu-text">Resume</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./manual/cvRobertYav.pdf"> 
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -146,15 +145,44 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#present" id="toc-present" class="nav-link" data-scroll-target="#present">Present</a>
+  <ul class="collapse">
+  <li><a href="#evc-logo-evergreen-valley-college" id="toc-evc-logo-evergreen-valley-college" class="nav-link" data-scroll-target="#evc-logo-evergreen-valley-college"><img src="https://cdn.theorg.com/ee21029e-0b73-4614-b576-45cbd15cc369_medium.jpg" height="30" alt="EVC Logo"> Evergreen Valley College</a></li>
+  <li><a href="#sjsu-logo-san-jose-state-university" id="toc-sjsu-logo-san-jose-state-university" class="nav-link" data-scroll-target="#sjsu-logo-san-jose-state-university"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/San_Jose_State_Spartans_logo.svg/330px-San_Jose_State_Spartans_logo.svg.png" height="30" alt="SJSU Logo"> San Jose State University</a></li>
+  </ul></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a>
+  <ul class="collapse">
+  <li><a href="#human-vs-ai-art-perception-replication-analysis-spring-2026" id="toc-human-vs-ai-art-perception-replication-analysis-spring-2026" class="nav-link" data-scroll-target="#human-vs-ai-art-perception-replication-analysis-spring-2026">Human vs AI Art Perception: Replication Analysis <span class="dates">Spring 2026</span></a></li>
+  <li><a href="#traffic-sign-classification-spring-2026" id="toc-traffic-sign-classification-spring-2026" class="nav-link" data-scroll-target="#traffic-sign-classification-spring-2026">Traffic Sign Classification <span class="dates">Spring 2026</span></a></li>
+  <li><a href="#predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025" id="toc-predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025" class="nav-link" data-scroll-target="#predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025">Predicting BMI from Screentime in Chinese Adolescents <span class="dates">Fall 2025</span></a></li>
+  <li><a href="#natural-disaster-tweet-classification-2023" id="toc-natural-disaster-tweet-classification-2023" class="nav-link" data-scroll-target="#natural-disaster-tweet-classification-2023">Natural Disaster Tweet Classification <span class="dates">2023</span></a></li>
+  </ul></li>
+  <li><a href="#experience" id="toc-experience" class="nav-link" data-scroll-target="#experience">Experience</a>
+  <ul class="collapse">
+  <li><a href="#math-lab-lead---instructional-support-assistant-2024-present" id="toc-math-lab-lead---instructional-support-assistant-2024-present" class="nav-link" data-scroll-target="#math-lab-lead---instructional-support-assistant-2024-present">Math Lab Lead - Instructional Support Assistant <span class="dates">2024-Present</span></a></li>
+  <li><a href="#instructional-student-assistant-2022-2023" id="toc-instructional-student-assistant-2022-2023" class="nav-link" data-scroll-target="#instructional-student-assistant-2022-2023">Instructional Student Assistant <span class="dates">2022-2023</span></a></li>
+  </ul></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a>
+  <ul class="collapse">
+  <li><a href="#ms-statistics-expected-graduatation-may-2028" id="toc-ms-statistics-expected-graduatation-may-2028" class="nav-link" data-scroll-target="#ms-statistics-expected-graduatation-may-2028">MS Statistics <span class="dates">Expected Graduatation: May 2028</span></a></li>
+  <li><a href="#bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023" id="toc-bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023" class="nav-link" data-scroll-target="#bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023">BS Applied Mathematics: Statistics, Minor in Computer Science <span class="dates">Graduated: May 2023</span></a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://www.linkedin.com/in/robert-yav/"><i class="bi bi-link-45deg"></i>LinkedIn</a></li><li><a href="https://github.com/rubertyao"><i class="bi bi-link-45deg"></i>Github</a></li><li><a href="https://www.evc.edu/people/robert-yav"><i class="bi bi-link-45deg"></i>EVC Profile</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title"><span class="name">Robert Yav</span></h1>
 </div>
 
 
@@ -171,15 +199,129 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div class="intro">
+<div>
+<p><img src="manual/SICZ0113.jpg" width="50%" height="50%"></p>
+</div>
+<div>
+<p>Contact me!</p>
+<p>Personal Inquiries: <a href="mailto: yavrob@gmail.com"> yavrob@gmail.com </a></p>
+<p>Work: <a href="mailto: robert.yav@evc.edu"> robert.yav@evc.edu </a></p>
+<p>Academic: <a href="mailto: robert.yav@sjsu.edu"> robert.yav@sjsu.edu </a></p>
 </div>
 </div>
+TODO: Add font sizes to every paragraph, add pictures and more information for each project, and fix coloring and formatting for each section header
+<p class="embolden">
+I am currently seeking internship positions in Data Science, Data Engineering, Data Analytics or other Statistics-adjacent roles!
+</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Applied mathematician and statistician pursuing a master’s degree, with a focus on machine learning, data science, and statistical modeling. Seeking internship opportunities in research and data science to apply coursework and project experience to real-world problems. I graduated from San Jose State University with a B.S. in Applied Mathematics with a concentration in Statistics and a minor in Computer Science.</p>
+</section>
+<section id="present" class="level2">
+<h2 class="anchored" data-anchor-id="present">Present</h2>
+<section id="evc-logo-evergreen-valley-college" class="level3">
+<h3 class="anchored" data-anchor-id="evc-logo-evergreen-valley-college"><img src="https://cdn.theorg.com/ee21029e-0b73-4614-b576-45cbd15cc369_medium.jpg" height="30" alt="EVC Logo"> Evergreen Valley College</h3>
+<section id="math-lab-lead-instructional-assistant" class="level4">
+<h4 class="anchored" data-anchor-id="math-lab-lead-instructional-assistant">Math Lab Lead, Instructional Assistant</h4>
+<p>Currently, I work with the future generation of engineers in the Math and Science Resource Center at Evergreen Valley College. Tuesday, Wednesday, and Thursday, find me at MS-112B in my usual corner 1:00-8:00PM. (10:30-5:30PM in the summer) Tutoring in Calculus I-III (MATH 71-73), Differential Equations (MATH 78), and Statistics (STAT C1000).</p>
+<p>My schedule is subject to changes every semester as I move it around for schooling.</p>
+</section>
+</section>
+<section id="sjsu-logo-san-jose-state-university" class="level3">
+<h3 class="anchored" data-anchor-id="sjsu-logo-san-jose-state-university"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/San_Jose_State_Spartans_logo.svg/330px-San_Jose_State_Spartans_logo.svg.png" height="30" alt="SJSU Logo"> San Jose State University</h3>
+<section id="ms-statistics" class="level4">
+<h4 class="anchored" data-anchor-id="ms-statistics">MS Statistics</h4>
+<p>Currently attending San Jose State University, in Fall 2026, my course load includes Classification (MATH 251 MW 1:30-2:45PM) and Multivariate Analysis (MATH 257 MW 12:00-1:15PM).</p>
+</section>
+</section>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<div class="skillz">
+<div>
+<p class="title">
+Statistical Methods
+</p>
+<p>
+Regression (OLS, LASSO), ANOVA, Friedman, cross-validation
+</p>
+</div>
+<div>
+<p class="title">
+Machine Learning
+</p>
+<p>
+Random Forest, Support Vector Machine, XGBoost, Logistic Regression, NLP (spaCy)
+</p>
+</div>
+<div>
+<p class="title">
+Languages &amp; Tools
+</p>
+<p>
+Python (NumPy, Pandas, Scikit-learn, matplotlib), R (tidyverse, ggpubr, caret), SQL, Java, LaTeX, Excel, Quarto
+</p>
+</div>
+<div>
+<p class="title">
+Dimensionality Reduction
+</p>
+<p>
+PCA, t-SNE, UMAP - Computer vision Class imbalance handling via SMOTE and image augmentation
+</p>
+</div>
+</div>
+</section>
+<section id="projects" class="level2">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+<section id="human-vs-ai-art-perception-replication-analysis-spring-2026" class="level3">
+<h3 class="anchored" data-anchor-id="human-vs-ai-art-perception-replication-analysis-spring-2026">Human vs AI Art Perception: Replication Analysis <span class="dates">Spring 2026</span></h3>
+<p>Wrangled a 60-participant x 319-column survey dataset on AI art perception from wide to long format using R tidyverse. Audited and reanalyzed the study’s Friedman Test and Within-Factors Repeated Measures ANOVA, uncovering dataset mislabeling through systematic comparison of descriptive statistics with ggpubr.</p>
+</section>
+<section id="traffic-sign-classification-spring-2026" class="level3">
+<h3 class="anchored" data-anchor-id="traffic-sign-classification-spring-2026">Traffic Sign Classification <span class="dates">Spring 2026</span></h3>
+<p>Built a computer vision classification pipeline on the LISA Traffic Sign dataset. Addressed class imbalance via image augmentation and SMOTE, then compared PCA, t-SNE, and UMAP dimensionality reduction across Random Forest, SVM, Naive Bayes, and XGBoost classifiers.</p>
+</section>
+<section id="predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025" class="level3">
+<h3 class="anchored" data-anchor-id="predicting-bmi-from-screentime-in-chinese-adolescents-fall-2025">Predicting BMI from Screentime in Chinese Adolescents <span class="dates">Fall 2025</span></h3>
+<p>Applied OLS regression, LASSO, and variable transformations to predict adolescent BMI from screentime and demographic predictors using the Chinese National Health Survey dataset. Compared model accuracy via k-fold cross-validation with RMSE, <span class="math inline">\(R^2\)</span>, and adjusted RMSE.</p>
+</section>
+<section id="natural-disaster-tweet-classification-2023" class="level3">
+<h3 class="anchored" data-anchor-id="natural-disaster-tweet-classification-2023">Natural Disaster Tweet Classification <span class="dates">2023</span></h3>
+<p>Led a Machine Learning Club team to classify whether social media posts describe real natural disasters. Applied NLP preprocessing (spaCy lemmatization and tokenization) and compared Multinomial Naive Bayes, Logistic Regression, KNN, Decision Trees, Random Forests, SVM, and Gradient Boosting.</p>
+</section>
+</section>
+<section id="experience" class="level2">
+<h2 class="anchored" data-anchor-id="experience">Experience</h2>
+<section id="math-lab-lead---instructional-support-assistant-2024-present" class="level3">
+<h3 class="anchored" data-anchor-id="math-lab-lead---instructional-support-assistant-2024-present">Math Lab Lead - Instructional Support Assistant <span class="dates">2024-Present</span></h3>
+<p>Leading the Math, Science &amp; Engineering Resource Center, independently extending lab hours into the evening. Collaborating with staff, professors, and student tutors to maintain education standards and proctoring exams.</p>
+</section>
+<section id="instructional-student-assistant-2022-2023" class="level3">
+<h3 class="anchored" data-anchor-id="instructional-student-assistant-2022-2023">Instructional Student Assistant <span class="dates">2022-2023</span></h3>
+<p>Independently facilitated workshops for MATH 70X (Mathematics for Business) and MATH 30X (Calculus I), improving consistency across course sections under head professors.</p>
+</section>
+</section>
+<section id="education" class="level2">
+<h2 class="anchored" data-anchor-id="education">Education</h2>
+<section id="ms-statistics-expected-graduatation-may-2028" class="level3">
+<h3 class="anchored" data-anchor-id="ms-statistics-expected-graduatation-may-2028">MS Statistics <span class="dates">Expected Graduatation: May 2028</span></h3>
+<div>
+San Jose State University
+</div>
+<p>Courses Taken: Stochastic Processes Design and Analysis of Experiments Mathematical Data Visualization Regression Theory In Progress: Multivariate Analysis Classification</p>
+</section>
+<section id="bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023" class="level3">
+<h3 class="anchored" data-anchor-id="bs-applied-mathematics-statistics-minor-in-computer-science-graduated-may-2023">BS Applied Mathematics: Statistics, Minor in Computer Science <span class="dates">Graduated: May 2023</span></h3>
+<div>
+San Jose State University
+</div>
+<p>Courses Taken: Probability &amp; Statistics I-II Mathematical Statistics Numerical Analysis &amp; Scientific Computing Linear and Nonlinear Optimization Mathematical Modeling Data Structures &amp; Algorithms Fundamentals of Data Science Programming in R Python &amp; SQL Object-Oriented Programming Combinatorics</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -604,4 +746,5 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

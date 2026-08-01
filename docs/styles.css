@@ -29,10 +29,10 @@ body {
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
 }
-.picture{  
+.intro{  
   text-align: center;
   display: block;
-  align-items: left;
+  align-items: right;
   gap: 2rem;
 }
 .title {
